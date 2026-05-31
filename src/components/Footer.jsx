@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         <div className="mt-10 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>© {new Date().getFullYear()} Tessera Health. All rights reserved.</p>
-          <p>HIPAA-ready · SOC 2 Type II · Built with care.</p>
+          <p>Built with care.</p>
         </div>
       </div>
     </footer>

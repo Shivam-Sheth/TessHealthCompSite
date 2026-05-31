@@ -33,8 +33,6 @@ export default function Hero({ onLearnMore }) {
             </button>
           </div>
           <div className="mt-10 flex items-center gap-6 justify-center lg:justify-start text-sm text-slate-500">
-            <span className="flex items-center gap-2"><CheckIcon /> HIPAA-ready</span>
-            <span className="flex items-center gap-2"><CheckIcon /> SOC 2 Type II</span>
             <span className="flex items-center gap-2"><CheckIcon /> 24/7 monitoring</span>
           </div>
         </div>
