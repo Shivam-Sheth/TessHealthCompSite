@@ -1,12 +1,12 @@
 import { useCallback } from "react";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
-import Problem from "./components/Problem";
-import HowItWorks from "./components/HowItWorks";
-import Demo from "./components/Demo";
-import Impact from "./components/Impact";
-import WhyNow from "./components/WhyNow";
-import Judges from "./components/Judges";
+import About from "./components/About";
+import Features from "./components/Features";
+import AppPreview from "./components/AppPreview";
+import Founders from "./components/Founders";
+import Stats from "./components/Stats";
+import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,18 +15,15 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-neutral-50">
+    <div className="min-h-screen bg-white">
       <Nav />
-      <Hero
-        onTryDemo={() => scrollTo("demo")}
-        onSeeImpact={() => scrollTo("impact")}
-      />
-      <Problem />
-      <HowItWorks />
-      <Demo />
-      <Impact />
-      <WhyNow />
-      <Judges />
+      <Hero onLearnMore={() => scrollTo("about")} />
+      <About />
+      <Features />
+      <AppPreview />
+      <Stats />
+      <Founders />
+      <CTA />
       <Footer />
     </div>
   );
