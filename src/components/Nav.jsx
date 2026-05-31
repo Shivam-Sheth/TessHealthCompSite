@@ -6,8 +6,8 @@ const APP_URL = "https://6a1671ef4cb3f600098508ac--tesserhealth.netlify.app/";
 const links = [
   { label: "About", id: "about" },
   { label: "Platform", id: "platform" },
+  { label: "How it works", id: "how-it-works" },
   { label: "Founders", id: "founders" },
-  { label: "Impact", id: "impact" },
   { label: "Contact", id: "contact" },
 ];
 

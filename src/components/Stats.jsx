@@ -1,8 +1,8 @@
 const stats = [
-  { value: "1.2M+", label: "Patient records managed" },
-  { value: "98%", label: "Care team satisfaction" },
-  { value: "40%", label: "Faster response times" },
-  { value: "24/7", label: "Continuous monitoring" },
+  { value: "50M+", label: "Elderly Indians receiving home care without a shared system" },
+  { value: "₹8,000cr", label: "Home care market in India, growing 15% a year" },
+  { value: "300M+", label: "Diaspora Indians managing care decisions from abroad" },
+  { value: "15s", label: "To parse a paper lab report with vision AI" },
 ];
 
 export default function Stats() {
@@ -11,10 +11,10 @@ export default function Stats() {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="text-center max-w-2xl mx-auto">
           <h2 className="font-display font-bold text-3xl sm:text-4xl">
-            Impact you can measure
+            The coordination layer home care never had
           </h2>
           <p className="mt-4 text-teal-100 text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
+            Competent doctors. Trained nurses. Caring families. No shared system — until now.
           </p>
         </div>
         <div className="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-8">

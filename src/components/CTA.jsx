@@ -9,10 +9,10 @@ export default function CTA() {
           <div className="absolute -bottom-20 -right-20 w-72 h-72 rounded-full bg-teal-500/20 blur-3xl pointer-events-none" />
           <div className="relative">
             <h2 className="font-display font-bold text-3xl sm:text-4xl text-white">
-              Ready to bring your care together?
+              Home care, finally connected.
             </h2>
             <p className="mt-4 text-slate-300 text-lg max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna.
+              Doctor. Nurse. Family. One record. Get your care circle on the same page in five minutes — free to start, on any phone.
             </p>
             <div className="mt-10 flex flex-wrap gap-4 justify-center">
               <a
@@ -21,7 +21,7 @@ export default function CTA() {
                 rel="noreferrer"
                 className="px-7 py-3.5 rounded-xl bg-teal-600 text-white font-semibold shadow-lg shadow-teal-600/30 hover:bg-teal-500 transition-colors"
               >
-                Launch the App
+                Get Started Free
               </a>
               <a
                 href="mailto:hello@tessera.health"

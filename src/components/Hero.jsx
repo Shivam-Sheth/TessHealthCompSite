@@ -8,13 +8,13 @@ export default function Hero({ onLearnMore }) {
         <div className="flex-1 text-center lg:text-left animate-fade-in">
           <span className="inline-flex items-center gap-2 rounded-full border border-teal-200 bg-teal-50 px-3.5 py-1.5 text-sm font-medium text-teal-700">
             <span className="w-1.5 h-1.5 rounded-full bg-teal-500" />
-            Connected, intelligent care
+            AI care coordination for home care
           </span>
           <h1 className="mt-6 font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-slate-900 leading-[1.05]">
-            Healthcare that finally <span className="text-teal-700">fits together</span>.
+            The health record that connects your <span className="text-teal-700">doctor</span>, your <span className="text-teal-700">nurse</span>, and your <span className="text-teal-700">family</span>.
           </h1>
           <p className="mt-6 text-lg text-slate-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tessera Health unifies patient records, monitoring, and care teams into one intelligent platform built for modern medicine. Sed do eiusmod tempor incididunt ut labore.
+            One shared record. An AI that watches over it. Everyone on the same page — finally. Built for families managing care at home, it works on any phone, with no app store needed.
           </p>
           <div className="mt-10 flex flex-wrap gap-4 justify-center lg:justify-start">
             <a
@@ -23,17 +23,19 @@ export default function Hero({ onLearnMore }) {
               rel="noreferrer"
               className="px-6 py-3.5 rounded-xl bg-teal-700 text-white font-semibold shadow-lg shadow-teal-700/25 hover:bg-teal-800 hover:shadow-teal-700/30 transition-all duration-200"
             >
-              Launch the App
+              Get Started Free
             </a>
             <button
               onClick={onLearnMore}
               className="px-6 py-3.5 rounded-xl border-2 border-slate-200 text-slate-700 font-semibold hover:border-teal-500 hover:text-teal-700 hover:bg-teal-50/50 transition-all duration-200"
             >
-              Learn More
+              See How It Works
             </button>
           </div>
-          <div className="mt-10 flex items-center gap-6 justify-center lg:justify-start text-sm text-slate-500">
-            <span className="flex items-center gap-2"><CheckIcon /> 24/7 monitoring</span>
+          <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 justify-center lg:justify-start text-sm text-slate-500">
+            <span className="flex items-center gap-2"><CheckIcon /> Works on any phone</span>
+            <span className="flex items-center gap-2"><CheckIcon /> No app store needed</span>
+            <span className="flex items-center gap-2"><CheckIcon /> Set up in 5 minutes</span>
           </div>
         </div>
         <div className="flex-1 w-full max-w-md animate-slide-up">

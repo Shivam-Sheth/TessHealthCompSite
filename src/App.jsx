@@ -3,7 +3,9 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Features from "./components/Features";
+import HowItWorks from "./components/HowItWorks";
 import AppPreview from "./components/AppPreview";
+import Audiences from "./components/Audiences";
 import Founders from "./components/Founders";
 import Stats from "./components/Stats";
 import CTA from "./components/CTA";
@@ -17,10 +19,12 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Nav />
-      <Hero onLearnMore={() => scrollTo("about")} />
+      <Hero onLearnMore={() => scrollTo("how-it-works")} />
       <About />
       <Features />
+      <HowItWorks />
       <AppPreview />
+      <Audiences />
       <Stats />
       <Founders />
       <CTA />

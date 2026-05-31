@@ -1,15 +1,15 @@
 const pillars = [
   {
-    title: "Patient-first",
-    copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Every decision starts with the person receiving care.",
+    title: "Patient-owned",
+    copy: "Your health record belongs to you — not a hospital, an insurer, or a filing cabinet. You control who sees it and can revoke access anytime.",
   },
   {
-    title: "Built on trust",
-    copy: "Ut enim ad minim veniam, quis nostrud exercitation. Security and privacy are foundational, not afterthoughts.",
+    title: "Built for how care really happens",
+    copy: "A family doctor who makes house calls, a nurse who comes every morning, and family abroad. We connect the people who are perpetually out of sync.",
   },
   {
     title: "Intelligent by design",
-    copy: "Duis aute irure dolor in reprehenderit. Insights surface the moment they matter, not hours later.",
+    copy: "An embedded AI agent reads every observation, routes every alert, and briefs every team member — automatically, the moment it matters.",
   },
 ];
 
@@ -20,10 +20,13 @@ export default function About() {
         <div className="max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-wider text-teal-700">About Tessera</p>
           <h2 className="mt-3 font-display font-bold text-3xl sm:text-4xl text-slate-900 leading-tight">
-            We're reassembling the broken pieces of modern healthcare.
+            One record. Every person in the circle.
           </h2>
           <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tessera takes the scattered tiles of patient data and care workflows and fits them into one coherent picture. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Tessera Health is an AI care coordination platform for home care. A patient creates one record — their medications, conditions, allergies, lab results, vitals, and care logs — and shares it with their visiting nurse, their family doctor, and family members using a simple code. Everyone sees the same, real-time picture.
+          </p>
+          <p className="mt-5 text-lg text-slate-600 leading-relaxed">
+            The doctors were good. The nurses were trained. The families cared. The coordination was broken. We're building the coordination layer that home care has never had.
           </p>
         </div>
         <div className="mt-14 grid md:grid-cols-3 gap-6">

@@ -1,10 +1,10 @@
 const APP_URL = "https://6a1671ef4cb3f600098508ac--tesserhealth.netlify.app/";
 
 const points = [
-  "Lorem ipsum dolor sit amet consectetur adipiscing.",
-  "Ut enim ad minim veniam quis nostrud exercitation.",
-  "Duis aute irure dolor in reprehenderit voluptate.",
-  "Excepteur sint occaecat cupidatat non proident.",
+  "Works on any Android or iPhone — no special hardware, no app store.",
+  "Patient-owned records: you control all sharing and can revoke access anytime.",
+  "Encrypted in transit and at rest, with a full audit trail of every access.",
+  "No AI training on your data, with India & EU data residency.",
 ];
 
 export default function AppPreview() {
@@ -44,10 +44,10 @@ export default function AppPreview() {
         <div className="order-1 lg:order-2">
           <p className="text-sm font-semibold uppercase tracking-wider text-teal-700">See it live</p>
           <h2 className="mt-3 font-display font-bold text-3xl sm:text-4xl text-slate-900 leading-tight">
-            A clinical dashboard your team will actually love
+            Your health data. Your control.
           </h2>
           <p className="mt-5 text-lg text-slate-600 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim.
+            One shared record, accessible to everyone in the care circle from their own phone — secured so that no one ever sees data they're not explicitly linked to.
           </p>
           <ul className="mt-8 space-y-4">
             {points.map((p, i) => (

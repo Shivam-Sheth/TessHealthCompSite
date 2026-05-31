@@ -11,14 +11,15 @@ export default function Footer() {
             <Logo className="w-8 h-8" />
             <div>
               <p className="font-display font-bold text-white text-lg">Tessera Health</p>
-              <p className="text-sm text-slate-400 -mt-0.5">Connected, intelligent care</p>
+              <p className="text-sm text-slate-400 -mt-0.5">Home care, finally connected.</p>
             </div>
           </div>
           <nav className="flex flex-wrap justify-center gap-6 text-sm">
             <a href="#about" className="hover:text-teal-400 transition-colors">About</a>
             <a href="#platform" className="hover:text-teal-400 transition-colors">Platform</a>
+            <a href="#how-it-works" className="hover:text-teal-400 transition-colors">How it works</a>
             <a href="#founders" className="hover:text-teal-400 transition-colors">Founders</a>
-            <a href="#contact" className="hover:text-teal-400 transition-colors">Contact</a>
+            <a href="mailto:hello@tessera.health" className="hover:text-teal-400 transition-colors">Contact</a>
             <a href={APP_URL} target="_blank" rel="noreferrer" className="hover:text-teal-400 transition-colors">Open App</a>
           </nav>
         </div>
